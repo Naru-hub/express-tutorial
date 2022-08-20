@@ -4,6 +4,7 @@ const userRouter = require("./routes/user");
 
 const PORT = 3000;
 
+// app.use(mylogger);
 // app.use(express.static("public"));
 app.set("view engine", "ejs");
 
